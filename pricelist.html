@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price list</title>
+    <link rel="icon" href="./image/logo.jpg">
+    <link rel="stylesheet" href="./bootstrap-disc/css/bootstrap.min.css" ></link>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+    <link rel="stylesheet" href="./css/screen.css">
+    <link rel="stylesheet" href="./css/price.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <strong class="fs-4">Cinta Dekorasi</strong>
+          </a>
+      
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navToggle">
+            <span class=""></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="./dokumentasi.html" class="nav-link">Dokumentasi</a></li>
+                <li class="nav-item"><a href="./pricelist.html" class="nav-link">Pricelist</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="cover">
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto bio">
+              <h1 class="fw-light text-white">Cinta Dekorasi</h1>
+              <p class="lead text-white">adalah penyedia jasa dekorasi wedding dan event yang berfokus pada menciptakan suasana magis dan elegan untuk setiap momen spesial Anda. Dengan pengalaman bertahun-tahun di industri dekorasi, kami berkomitmen menghadirkan konsep yang unik, mewah, dan penuh estetika.</p>
+             
+            </div>
+          </div>
+        </section>
+    </div>
+
+    <section id="price-list" class="py-5 price-list">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="fw-bold">Price List</h2>
+          <p class="text-muted">Pilih paket terbaik sesuai kebutuhan Anda</p>
+        </div>
+    
+        <!-- Tabs untuk kategori paket -->
+        <ul class="nav nav-pills justify-content-center mb-4" id="packageTabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#wedding">Paket Wedding</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#event">Paket Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#catering">Paket Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#makeup">Paket Makeup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#fotograper">Paket fotograprer</a>
+          </li>
+        </ul>
+    
+        <div class="tab-content">
+          
+          <div class="tab-pane fade show active" id="wedding">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Akad nikah</h5>
+                    <h4>Rp 3.000.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-wedding1')">Detail</button>
+                  </div>
+                  <div id="detail-wedding1" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>&#9989; Gaun sepasang</li>
+                      <li>&#9989; Makeup</li>
+                      <li>&#9989; Hena art</li>
+                      <li>&#9989; Melati fresh</li>
+                      <li>&#9989; Selop pria dan wanita</li>
+                      <li>&#9989; Siger sunda / jawa/ betawi</li>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Gold</h5>
+                    <h4>Rp 19.000.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-wedding')">Detail</button>
+                  </div>
+                  <div id="detail-wedding" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>&#9989; Dekorasi standar</li>
+                      <li>&#9989; Tenda (4x20, 5x20, /8x16)</li>
+                      <li>&#9989; 100 kursi tamu</li>
+                      <li>&#9989; Pelaminan sederhana</li>
+                      <li>&#9989; Lighting standar</li>
+                      <li>&#9989; Gajebo</li>
+                      <li>&#9989; Lighting standar</li>
+                      <li>&#9989; Meja tamu 4 buah</li>
+                      <li>&#9989; Mini garden</li>
+                      <li>&#9989; Standing flower 4 buah</li>
+                      <li>&#9989; Full karpet</li>
+                      <li>&#9989; Meja prasmanan 1 set</li>
+                      <li>&#9989; Blower 1 buah</li>
+                      <li>&#9989; Meja penerima tamu 1 buah</li>
+                      <li>&#9989; Piring, sendok, garpu x200 pcs</li>
+                    </ul>
+                    <br>
+                    <p><strong>MUA</strong></p>
+                    <ul>
+                      <li>&#9989; Makeup pengantin</li>
+                      <li>&#9989; Gaun 3X ganti</li>
+                      <li>&#9989; Busana orangtua dan besan</li>
+                      <li>&#9989; 4 busana pager ayu</li>
+                      <li>&#9989; Siger sunda / jawa / betawi</li>
+                      <li>&#9989; Melati fresh</li>
+                      <li>&#9989; Selop pengantin</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <br><br>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Platinum</h5>
+                    <h4>Rp 29.500.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-wedding3')">Detail</button>
+                  </div>
+                  <div id="detail-wedding3" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>&#9989; Dekorasi mewah</li>
+                      <li>&#9989; Tenda 100m</li>
+                      <li>&#9989; 100 kursi tamu</li>
+                      <li>&#9989; Gajebo</li>
+                      <li>&#9989; Pelaminan nasional 6 meter</li>
+                      <li>&#9989; Lighting mewah</li>
+                      <li>&#9989; Meja tamu 4 buah</li>
+                      <li>&#9989; Mini garden</li>
+                      <li>&#9989; Standing flower 4 buah</li>
+                      <li>&#9989; Full karpet</li>
+                      <li>&#9989; Gubukan 2</li>
+                      <li>&#9989; Meja prasmanan 1 set</li>
+                      <li>&#9989; Blower 2 buah</li>
+                      <li>&#9989; Meja penerima tamu 2 buah</li>
+                      <li>&#9989; Piring, sendok, garpu x200 pcs</li>
+                    </ul>
+                    <br>
+                    <p><strong>MUA</strong></p>
+                    <ul>
+                      <li>&#9989; Makeup pengantin</li>
+                      <li>&#9989; Gaun 3X ganti</li>
+                      <li>&#9989; Busana orangtua & besan + makeup</li>
+                      <li>&#9989; 4 Busana pager ayu + makeup</li>
+                      <li>&#9989; Melati fresh</li>
+                      <li>&#9989; hairdoo</li>
+                      <li>&#9989; Siger sunda / jawa / betawi</li>
+                      <li>&#9989; Selop pengantin</li>
+                    </ul>
+                    <br>
+                    <p><strong>Dokumentasi</strong></p>
+                    <ul>
+                      <li>&#9989; Foto dan video</li>
+                      <li>&#9989; Album kalose 10 shett</li>
+                      <li>&#9989; Video full durasi</li>
+                      <li>&#9989; Frame foto 30x40 1 pcs</li>
+                      <li>&#9989; Video cinematic</li>
+                      <li>&#9989; All file foto</li>
+                    </ul>
+                    <br>
+                    <p><strong>Free:</strong></p>
+                    <ul>
+                      <li>&#9989; Mc wedding</li>
+                      <li>&#9989; Henna art</li>
+                      <li>&#9989; Nail art</li>
+                      <li>&#9989; Hand bucket</li>
+                      <li>&#9989; Soflen</li>
+                      <li>&#9989; Janur sedang 1</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Premium</h5>
+                    <h4>Rp 32.500.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-wedding4')">Detail</button>
+                  </div>
+                  <div id="detail-wedding4" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>&#9989; Dekorasi mewah</li>
+                      <li>&#9989; Tenda 100m</li>
+                      <li>&#9989; 100 kursi tamu</li>
+                      <li>&#9989; Gajebo</li>
+                      <li>&#9989; Pelaminan nasional 6 meter</li>
+                      <li>&#9989; Lighting mewah</li>
+                      <li>&#9989; Meja tamu 4 buah</li>
+                      <li>&#9989; Mini garden</li>
+                      <li>&#9989; Standing flower 4 buah</li>
+                      <li>&#9989; Full karpet</li>
+                      <li>&#9989; Meja prasmanan 1 set</li>
+                      <li>&#9989; Blower 2 buah</li>
+                      <li>&#9989; Meja penerima tamu 2 buah</li>
+                      <li>&#9989; Piring, sendok, garpu x200 pcs</li>
+                      <li>&#9989; Gubukan 2</li>
+                    </ul>
+                    <br>
+                    <p><strong>Dokumentasi</strong></p>
+                    <ul>
+                      <li>&#9989; Foto dan video</li>
+                      <li>&#9989; Foto  album ( kaloase 10 set )</li>
+                      <li>&#9989; Video full durasi</li>
+                      <li>&#9989; Video cinematic 5 menit</li>
+                      <li>&#9989; Frame foto 30x40 1 pcs</li>
+                    </ul>
+                    <br>
+                    <p><strong>MUA</strong></p>
+                    <ul>
+                      <li>&#9989; Makeup pengantin</li>
+                      <li>&#9989; Gaun 3xganti</li>
+                      <li>&#9989; Busana orangtua & besan + makeup</li>
+                      <li>&#9989; 4 Busana pager ayu + makeup</li>
+                      <li>&#9989; hairdoo</li>
+                      <li>&#9989; Melati fresh</li>
+                      <li>&#9989; Selop pengantin</li>
+                      <li>&#9989; Siger sunda / jawa / betawi</li>
+                    </ul>
+                    <br>
+                    <p><strong>Hiburan</strong></p>
+                    <ul>
+                      <li>&#9989; Dangdut / band / gambus</li>
+                      <li>&#9989; Player</li>
+                      <li>&#9989; Artis 2</li>
+                      <li>&#9989; Sound sistem</li>
+                      <li>&#9989; Panggung</li>
+                    </ul>
+                    <br>
+                    <p><strong>Free:</strong></p>
+                    <ul>
+                      <li>&#9989; Mc wedding</li>
+                      <li>&#9989; Henna art</li>
+                      <li>&#9989; Nail art</li>
+                      <li>&#9989; Hand bucket</li>
+                      <li>&#9989; Soflen</li>
+                      <li>&#9989; Janur sedang 1</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          
+          
+          <div class="tab-pane fade" id="event">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Standar</h5>
+                    <h4>Rp 3.000.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-event')">Detail</button>
+                  </div>
+                  <div id="detail-event" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>✅ 50 kursi tamu</li>
+                      <li>✅ Lighting standar</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket lamaran</h5>
+                    <h4>Rp 3.700.000</h4>
+                    <p class="card-text">Lamaran yuk</p>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-event2')">Detail</button>
+                  </div>
+                  <div id="detail-event2" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>&#9989; Backdrop size 2,5X2m-3m</li>
+                      <li>&#9989; Lampu bawah dan gantung</li>
+                      <li>&#9989; Karpet hijau 2,5X3m</li>
+                      <li>&#9989; 2 standing flower</li>
+                      <li>&#9989; 2 kursi</li>
+                      <li>&#9989; free transport 5km</li>
+                      <li>&#9989; free hand bouquet</li>
+                      <li>&#9989; free welcome sign</li>
+                      <li>&#9989; free inisial nama / huruf</li>
+                      <li>&#9989; 1 Fotograper</li>
+                      <li>&#9989; Foto unlimited max 5 jam + edit = soft file</li>
+                      <li>&#9989; free cetak foto ukuran A4=bingkai foto</li>
+                      <li>&#9989; Make up + free soflens</li>
+                      <li>&#9989; free hair do / hijab do</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+    
+          
+          <div class="tab-pane fade" id="catering">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Standar</h5>
+                    <h4>Rp 3.000.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-catering')">Detail</button>
+                  </div>
+                  <div id="detail-catering" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>✅ 500 kursi tamu</li>
+                      <li>✅ Lighting standar</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Standar</h5>
+                    <h4>Rp 3.000.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-catering')">Detail</button>
+                  </div>
+                  <div id="detail-catering" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>✅ 500 kursi tamu</li>
+                      <li>✅ Lighting standar</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+    
+          
+          <div class="tab-pane fade" id="makeup">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Pengantin</h5>
+                    <p class="card-text">Makeup & hairdo pengantin + keluarga.</p>
+                    <h4>Rp 7.000.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-makeup')">Detail</button>
+                  </div>
+                  <div id="detail-makeup" class="detail-content">
+                    <p><strong>Fitur paket</strong></p>
+                    <ul>
+                      <li>&#9989; Makeup pengantin</li>
+                      <li>&#9989; 1X gaun akad</li>
+                      <li>&#9989; 2X gaun resepsi</li>
+                      <li>&#9989; 4 busana pager ayu + makeup </li>
+                      <li>&#9989; 2 beskap orang tua & besan</li>
+                      <li>&#9989; 2 Makeup orang tua & besan</li>
+                      <li>&#9989; siger sunda / betawi / jawa</li>
+                      <li>&#9989; Hena art</li>
+                      <li>&#9989; Soflen normal</li>
+                      <li>&#9989; Melati segar</li>
+                      <li>&#9989; Kuku palsu</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="tab-pane fade" id="fotograper">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Hemat 1</h5>
+                    <p class="card-text">Foto only</p>
+                    <h4>Rp 1.500.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-fotograper')">Detail</button>
+                  </div>
+                  <div id="detail-fotograper" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>&#9989; 1 fotgraper</li>
+                      <li>&#9989; Sambutan besan</li>
+                      <li>&#9989; Akad nikah / ijab kobul</li>
+                      <li>&#9989; Foto berdua</li>
+                      <li>&#9989; Foto bersama</li>
+                      <li>&#9989; Cetak / output</li>
+                      <li>&#9989; Album kolase 10 shett</li>
+                      <li>&#9989; 1 plashdisck data</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Hemat 2</h5>
+                    <p class="card-text">Foto & Video shoting</p>
+                    <h4>Rp 2.500.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-fotograper2')">Detail</button>
+                  </div>
+                  <div id="detail-fotograper2" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>&#9989; 1 fotgraper</li>
+                      <li>&#9989; 1 videograper</li>
+                      <li>&#9989; Sambutan besan</li>
+                      <li>&#9989; Akad nikah / ijab kobul</li>
+                      <li>&#9989; Foto berdua</li>
+                      <li>&#9989; Foto bersama</li>
+                      <li>&#9989; Cetak / output</li>
+                      <li>&#9989; Album kolase 10 shett</li>
+                      <li>&#9989; 1 plashdisck data</li>
+                      <li>&#9989; Video</li>
+                      <li>&#9989; Prame foto 30x40 1pcs</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket Cinematic</h5>
+                    <p class="card-text">Foto & Video shoting</p>
+                    <h4>Rp 3.000.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-fotograper3')">Detail</button>
+                  </div>
+                  <div id="detail-fotograper3" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>&#9989; 1 fotgraper</li>
+                      <li>&#9989; 1 videograper</li>
+                      <li>&#9989; Sambutan besan</li>
+                      <li>&#9989; Akad nikah / ijab kobul</li>
+                      <li>&#9989; Foto berdua</li>
+                      <li>&#9989; Foto bersama</li>
+                      <li>&#9989; Cetak / output</li>
+                      <li>&#9989; Album kolase 10 shett</li>
+                      <li>&#9989; 1 plashdisck data</li>
+                      <li>&#9989; Video</li>
+                      <li>&#9989; Prame foto 30x40 1pcs</li>
+                      <li>&#9989; Video Cinematic 3 menit</li>
+                      <li>&#9989; All file</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Paket premium</h5>
+                    <p class="card-text">Foto & Video shoting</p>
+                    <h4>Rp 3.500.000</h4>
+                    <button class="btn btn-primary" onclick="toggleDetail('detail-fotograper4')">Detail</button>
+                  </div>
+                  <div id="detail-fotograper4" class="detail-content">
+                    <p><strong>Fitur Paket:</strong></p>
+                    <ul>
+                      <li>&#9989; 1 fotgraper</li>
+                      <li>&#9989; 1 videograper</li>
+                      <li>&#9989; Sambutan besan</li>
+                      <li>&#9989; Akad nikah / ijab kobul</li>
+                      <li>&#9989; Foto berdua</li>
+                      <li>&#9989; Foto bersama</li>
+                      <li>&#9989; Cetak / output</li>
+                      <li>&#9989; Album kolase 10 shett</li>
+                      <li>&#9989; 1 plashdisck data</li>
+                      <li>&#9989; Video</li>
+                      <li>&#9989; Prame foto 30x40 1pcs</li>
+                      <li>&#9989; Video Cinematic 3 menit</li>
+                      <li>&#9989; All file</li>
+                      <li>&#9989; Bag cover album premium</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          
+          
+        </div>
+      </div>
+    </section>
+    
+
+    <div class="modal fade" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="detailModalLabel">Detail Paket</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h4 id="modalTitle"></h4>
+            <p><strong>Harga:</strong> <span id="modalPrice"></span></p>
+            <p id="modalDescription"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+      <script src="./js/modal.js"></script>
+      <script src="./js/price.js" ></script>
+<script src="./bootstrap-disc/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
